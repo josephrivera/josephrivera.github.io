@@ -1,0 +1,33 @@
+.nav {
+  background-color: black;
+  color: white;
+}
+.floatLeft{
+  float: left;
+}
+
+.nav div a {
+  float: right;
+}
+img {
+  display: block;
+
+}
+.guitar {
+  height: 40%;
+  width: 15%;
+}
+.floatRight{
+  float: right;
+  clear: right;
+}
+.sec2{
+  position: absolute;
+  top: 6%;
+  right: 0%;
+  bottom: 0%;
+  left: 29%;
+}
+.logo{
+  clear: both;
+}
