@@ -18,8 +18,9 @@ img {
   width: 15%;
 }
 .floatRight{
-  float: right;
-  clear: right;
+  float: left;
+  clear: both;
+  line-height: 15px;
 }
 .sec2{
   position: absolute;
@@ -30,4 +31,10 @@ img {
 }
 .logo{
   clear: both;
+}
+#bottomBorder {
+  border-bottom: 3px groove;
+}
+h3 {
+  color: #C9314F;
 }
