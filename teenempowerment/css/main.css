@@ -124,4 +124,6 @@ text-decoration: none;
 }
 footer{
   height: 100px;
+  background-color: #303030;
+  color: white;
 }
