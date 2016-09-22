@@ -123,7 +123,41 @@ text-decoration: none;
   width: 133px;
 }
 footer{
+  clear: both;
   height: 100px;
   background-color: #303030;
   color: white;
+}
+li div{
+  float: left;
+  width:20%;
+}
+li div:last-child{
+  width: 80%;
+}
+.clearfix:before,
+.clearfix:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.clearfix:after {
+    clear: both;
+}
+ul{
+  list-style: none;
+}
+.newsAndEvents{
+  float: left;
+  width: 70%;
+}
+.facebook{
+margin-top: 60px;
+float:left;
+background: yellow;
+width: 30%;
+height: 500px;
+}
+li h4{
+  font-size: 30px;
 }
