@@ -161,3 +161,20 @@ height: 500px;
 li h4{
   font-size: 30px;
 }
+h6{
+  font-size: 20px;
+}
+h3{
+  font-size: 40px;
+}
+@media (min-width: 100px) and (max-width: 768px){
+  h1{
+    color: red;
+  }
+  .facebook, .newsAndEvents{
+    float: none;
+  }
+  .stories div{
+    float: none;
+  }
+}
